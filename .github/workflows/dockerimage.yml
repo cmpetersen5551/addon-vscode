@@ -19,6 +19,6 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: cmpetersen5551/addon-vscode
-        dockerfile: addon-vscode/vscode/Dockerfile
+        path: vscode
         tag_with_ref: true
 
